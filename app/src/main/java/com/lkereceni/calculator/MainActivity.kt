@@ -74,6 +74,13 @@ class MainActivity : AppCompatActivity() {
                 }
             }
         }
+
+        buttonClear.setOnClickListener {
+            newNumber.setText("")
+            result.setText("")
+            operation.text = ""
+            operand1 = null
+        }
     }
 
     private fun performOperation(value: Double, operation: String) {
