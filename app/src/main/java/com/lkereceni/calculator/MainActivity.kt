@@ -24,6 +24,10 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        try {
+            this.supportActionBar?.hide()
+        } catch (e: NullPointerException) {}
+
         val listener = View.OnClickListener { v ->
             val b = v as Button
             newNumber.append(b.text)

@@ -23,4 +23,20 @@
         <item name="android:textSize">25sp</item>
     </style>
 
+    <style name="buttonDark" parent="TextAppearance.AppCompat.Button">
+        <item name="android:minWidth">106dp</item>
+        <item name="android:minHeight">40dp</item>
+        <item name="android:background">@drawable/button_dark</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">25sp</item>
+    </style>
+
+    <style name="buttonLight" parent="TextAppearance.AppCompat.Button">
+        <item name="android:minWidth">106dp</item>
+        <item name="android:minHeight">40dp</item>
+        <item name="android:background">@drawable/button_light</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">25sp</item>
+    </style>
+
 </resources>
